@@ -1,0 +1,24 @@
+#head{
+  background-color: rgb(181, 223, 181);   
+
+}
+#demo
+{
+    margin: 15px;
+}
+
+
+table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    background-color : rgb(221, 217, 208);
+    border: 1px solid #0a0909;
+    text-align: left;
+    padding: 8px;
+  }
+  

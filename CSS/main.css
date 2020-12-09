@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300&display=swap');
+.eachCard
+{
+    margin: 70px;
+}
+
+
+.mainMargin
+{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.jumbortonn{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    text-decoration: black;
+
+}
+
+.parallax {
+    background-image: url(../Pictures/parallax.jpg );
+    
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
