@@ -57,7 +57,7 @@ function countTick()
 {
 
 var count=0;
-var noRows=document.getElementById("myTable").rows.length;
+var noRows=200;
 for(var i = 1; i < noRows ; i++)
             {
                 var x = document.getElementById("myTable").rows[i].cells[2].firstChild.checked;
@@ -71,24 +71,15 @@ counting(count);
 }
 
 
-
-
 //Display alert.
 function counting(count)
 {
 if(count==5)
   {
-    // window.alert("Congratulations! Successfully completed 5 tasks.");
-    document.getElementById("head").innerHTML="List Tasks";
+    window.alert("Congrats, 5 Tasks have been Successfully Completed!");
+   
   }
 
 
 }
-
-
-
-
-
-
-
 
